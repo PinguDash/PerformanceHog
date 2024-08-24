@@ -1,6 +1,2 @@
-on item drop:
-    wait 10 seconds
-    delete event-item
-
 every minute:
-    delete all items
+    broadcast: ' '
